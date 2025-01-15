@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Macotas perdidas | PawFinder</title>
+    <title>Macotas perdidas | Patitas a casa</title>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="icon" href="./images/logos/icon.png" type="image/png">
 </head>
@@ -127,7 +127,7 @@
                                 <div id="preview-container" class="preview-container mob-flex-column"></div>
                             </div>
                     </div>
-                    <input class="btn-primary found-submit" type="submit" value="Send Information">
+                    <input class="btn-primary found-submit" type="submit" value="Enviar">
                 </form>
             </div>
 

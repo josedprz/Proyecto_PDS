@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> PawFinder Reencuéntrate con tu mascota </title>
+    <title> Patitas a casa Reencuéntrate con tu mascota </title>
     <link rel="manifest" href="manifest.json" />
     <link rel="icon" href="./images/logos/icon.png" type="image/png">
 </head>
@@ -13,7 +13,7 @@
         <?php include 'header.php'; ?>
 
         <div id="hero" class="nav-animate">
-            <h3 class="sub-title animate__animated animate__fadeInUp">Bienvenidos a PawFinder!</h3>  
+            <h3 class="sub-title animate__animated animate__fadeInUp">Bienvenidos a Patitas a casa!</h3>  
             <h2 class="main-title animate__animated animate__fadeInUp">Comprometidos a reunir a las mascotas perdidas con sus familias</h2> 
             <div class="btn-grp">
                 <a href="./lost-pet.php" class="btn-primary hero-btn-1 animate__animated animate__fadeInUp">Perdí a mi mascota</a>
@@ -29,8 +29,8 @@
                 <img src="./images/abt-section.png" alt="about" class="abt-img">
             </div>
             <div class="right-abt">
-                <h3 class="sub-title">Sobre PawFinder</h3>  
-                <h2 class="main-title">PawFinder</h2> 
+                <h3 class="sub-title">Sobre Patitas a casa</h3>  
+                <h2 class="main-title">Patitas a casa</h2> 
                 <p class="abt-content"> Bienvenidos a nuestra comunidad.
                     Sabemos que nuestra mascota es realmente importante para nosotros, son un miembro más de la familia donde muchas veces encontramos refugio.
                     Seguramente, cuando desafortunadamente se extravían queremos hacer todo lo posible para encontrarla, y tenemos la esperanza de poder hacerlo lo más pronto posible.
