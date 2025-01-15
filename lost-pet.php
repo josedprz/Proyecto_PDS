@@ -26,14 +26,14 @@
                     }
 
                     // Define your SQL query
-                    $sql = "SELECT * FROM found_request ORDER BY RAND()";
+                    $sql = "SELECT * FROM lost_request ORDER BY RAND()";
                     $result = $connection->query($sql);
                     if (mysqli_num_rows($result) > 0) {
                         
 
                         while ($row = mysqli_fetch_assoc($result)) {
-                            if (!empty($row['found_images_url'])) {
-                                $imageUrls = explode(',', $row['found_images_url']);
+                            if (!empty($row['lost_images_url'])) {
+                                $imageUrls = explode(',', $row['lost_images_url']);
                                 foreach ($imageUrls as $imageUrl){}
 
                                 $singlePageLink = 'single-lost-pet.php?id=' . $row['id'];
@@ -46,7 +46,7 @@
                                 echo '<p class="card-category">'. $row['pet_type'] . '</p>';
                                 echo '<h2 class="card-title">' . $row['pet_name'] . '</h2>';
                                 echo '<p class="card-desc">' . $limitedDescription . '</p>';
-                                echo '<p class="card-detail">Date Found: ' . $row['found_date'] . '</p>';
+                                echo '<p class="card-detail">Fecha Extravío: ' . $row['lost_date'] . '</p>';
                                 echo '</div>';
                                 echo '</div>';
                                 echo '</a>';
