@@ -6,7 +6,7 @@ include('session.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Found Pets | PawFinder</title>
+    <title>Mascotas encontradas | Patitas a casa</title>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="icon" href="../images/logos/icon.png" type="image/png">
 </head>
@@ -19,14 +19,14 @@ include('session.php');
             <div class="dash-left">
                 <img src="../images/logos/PawFinder Logo_black.png" alt="logo" class="dash-logo">
                 <ul class="nav">
-                    <li><a href="dashboard.php" >Dashboard</a></li>
-                    <li><a href="found-pets.php" class="active">Found Pets</a></li>
-                    <li><a href="lost-pets.php" >Lost Pets</a></li>
+                    <li><a href="dashboard.php" >Panel</a></li>
+                    <li><a href="found-pets.php" class="active">Mascotas encontradas</a></li>
+                    <li><a href="lost-pets.php" >Mascotas perdidas</a></li>
                 </ul>
-                <a href="logout.php " class="btn-primary">Logout</a>
+                <a href="logout.php " class="btn-primary">Salir</a>
             </div>
             <div class="dash-right">
-                <h1 class="single-title">Found Pets</h1>
+                <h1 class="single-title">Mascotas encontradas</h1>
                 
                 <div class="dash-item">
                     <div>

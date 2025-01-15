@@ -6,7 +6,7 @@ include('session.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard | PawFinder</title>
+    <title>Admin Dashboard | Patitas a casa</title>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="icon" href="../images/logos/icon.png" type="image/png">
 </head>

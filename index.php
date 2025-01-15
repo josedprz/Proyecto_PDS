@@ -52,7 +52,7 @@
                 <div class="owl-carousel">
                         <div class="item">
                             <div class="testi-content">
-                                <p class="text-justify">"PawFinder me ayudó bastante a mantener la esperanza de poder reencontrarme con mi perrito Tomas, hace unos meses que lo había perdido y estaba perdiendo la fe de volver a verlo otra vez, el es mi mejor amigo y agradezco a dios que lo haya encontrado."</p>
+                                <p class="text-justify">"Patitas a casa me ayudó bastante a mantener la esperanza de poder reencontrarme con mi perrito Tomas, hace unos meses que lo había perdido y estaba perdiendo la fe de volver a verlo otra vez, el es mi mejor amigo y agradezco a dios que lo haya encontrado."</p>
                                 <div>
                                     <h3>Eduardo Garcia</h3>
                                     <h3>Azcapotzalco, CDMX</h3>
@@ -63,7 +63,7 @@
 
                         <div class="item">
                             <div class="testi-content">
-                                <p class="text-justify">"PawFinder me salvó, había perdido a mi perrita Luna cuando paseaba por el parque, pegué muchos carteles por toda la ciudad pero ninguna llamada, y las pocas que recibía, resultaba no ser Luna después de todo, pero gracias a que encontré esta página, pude por fin reencontrarme con ella"</p>
+                                <p class="text-justify">"Patitas a casa me salvó, había perdido a mi perrita Luna cuando paseaba por el parque, pegué muchos carteles por toda la ciudad pero ninguna llamada, y las pocas que recibía, resultaba no ser Luna después de todo, pero gracias a que encontré esta página, pude por fin reencontrarme con ella"</p>
                                 <div>
                                     <h3>Paulina Gomez</h3>
                                     <h3>Iztapalapa. CDMX</h3>
@@ -75,7 +75,7 @@
 
                         <div class="item">
                             <div class="testi-content">
-                                <p class="text-justify">"PawFinder fue mi salvación cuando Max desapareció. En medio del bullicio de la Ciudad de México, estaba llena de preocupación. La sección de 'Mascotas Encontradas' en PawFinder me conectó rápidamente con el dueño de Max. Ahora, Max está de vuelta con su familia, y todo se lo debo a PawFinder. ¡Gracias!"</p>
+                                <p class="text-justify">"Patitas a casa fue mi salvación cuando Max desapareció. En medio del bullicio de la Ciudad de México, estaba llena de preocupación. La sección de 'Mascotas Encontradas' en Patitas a casa me conectó rápidamente con el dueño de Max. Ahora, Max está de vuelta con su familia, y todo se lo debo a Patitas a casa. ¡Gracias!"</p>
                                 <div>
                                     <h3>Karina Gonzles</h3>
                                     <h3>Cuauhtémoc CDMX</h3>
