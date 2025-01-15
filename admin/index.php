@@ -38,8 +38,8 @@
 
 </head>
 <body>
-    <div id="main">
-        <div class="login-bg">
+    <div id="main" style="display:none;" class="animate-bottom">
+    <div class="load" id="loader"><hr/><hr/><hr/><hr/></div>
         <div id = "frm" class="form">  
             <img src="../images/logos/Patitas Logo_black_transparent.png" alt="logo" width="60%" style="margin-bottom:20px">
             <form action = "" method = "post">  
