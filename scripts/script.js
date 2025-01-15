@@ -32,12 +32,12 @@ accordions.forEach((accordion) => {
 //Form Select & Options
 // Define options for the second dropdown based on the selected category
  const optionsByCategory = {
-        perro: ["Labrador Retriever", "Bulldog Inglés", "Pastor Alemán", "Golden Retriever", "Beagle", "Chihuahua", "Pomerania", "Dachshund", "Bóxer", "Rottweiler"],
-        gato: ["Persa", "Siamés", "Maine Coon", "Ragdoll", "Bengala", "British Shorthair", "Abisinio", "Scottish Fold", "Esfinge", "Bombay"],
-        conejo: ["Holland Lop", "Netherland Dwarf", "Mini Rex", "Lionhead", "Mini Lop", "Gigante Flamenco", "Angora Inglés", "Polaco", "Himalaya", "Arlequín"],
-        tortuga: ["Tortuga de Orejas Rojas", "Tortuga Leopardo", "Tortuga Rusa", "Tortuga de Caja", "Tortuga de Estrella India", "Tortuga Sulcata", "Tortuga de Estanque China", "Tortuga Mapa", "Tortuga Aligator", "Tortuga Mordedora"],
-        ave: ["Periquito Australiano", "Cacatúa Ninfa", "Canario", "Agapornis", "Diamante Mandarín", "Periquito Inglés", "Amazonas de Frente Azul", "Guacamayo", "Cotorra Argentina", "Loro Eclectus"],
-        vaca: ["Jersey", "Holstein Friesian", "Sahiwal", "Rathi", "Tharparkar", "Gir", "Red Sindhi", "Ongole", "Kankrej", "Hariana"],
+        Perro: ["Labrador Retriever", "Bulldog Inglés", "Pastor Alemán", "Golden Retriever", "Beagle", "Chihuahua", "Pomerania", "Dachshund", "Bóxer", "Rottweiler"],
+        Gato: ["Persa", "Siamés", "Maine Coon", "Ragdoll", "Bengala", "British Shorthair", "Abisinio", "Scottish Fold", "Esfinge", "Bombay"],
+        Conejo: ["Holland Lop", "Netherland Dwarf", "Mini Rex", "Lionhead", "Mini Lop", "Gigante Flamenco", "Angora Inglés", "Polaco", "Himalaya", "Arlequín"],
+        Tortuga: ["Tortuga de Orejas Rojas", "Tortuga Leopardo", "Tortuga Rusa", "Tortuga de Caja", "Tortuga de Estrella India", "Tortuga Sulcata", "Tortuga de Estanque China", "Tortuga Mapa", "Tortuga Aligator", "Tortuga Mordedora"],
+        Ave: ["Periquito Australiano", "Cacatúa Ninfa", "Canario", "Agapornis", "Diamante Mandarín", "Periquito Inglés", "Amazonas de Frente Azul", "Guacamayo", "Cotorra Argentina", "Loro Eclectus"],
+        Vaca: ["Jersey", "Holstein Friesian", "Sahiwal", "Rathi", "Tharparkar", "Gir", "Red Sindhi", "Ongole", "Kankrej", "Hariana"],
 };
 
 // Function to populate the second dropdown based on the selected category

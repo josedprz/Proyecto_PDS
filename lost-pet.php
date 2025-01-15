@@ -85,12 +85,12 @@
                         <div class="d-flex gap-15 mob-flex-column">
                             <select id="pettype" name="petType" onchange="populateSecondSelect()" required>
                                 <option value="">Seleccione un tipo *</option>
-                                <option value="perro">Perro</option>
-                                <option value="gato">Gato</option>
-                                <option value="conejo">Conejo</option>
-                                <option value="tortuga">Tortuga</option>
-                                <option value="vaca">Vaca</option>
-                                <option value="ave">Ave</option>
+                                <option value="Perro">Perro</option>
+                                <option value="Gato">Gato</option>
+                                <option value="Conejo">Conejo</option>
+                                <option value="Tortuga">Tortuga</option>
+                                <option value="Vaca">Vaca</option>
+                                <option value="Ave">Ave</option>
                             </select> 
                             <select id="petbreed" name="petBreed" required>
                                 <option value="">Seleccione una raza * (Primero elija el tipo)</option>

@@ -1,15 +1,15 @@
 <?php
-   define('DB_SERVER', 'host');
-   define('DB_USERNAME', 'username');
-   define('DB_PASSWORD', 'password');
-   define('DB_DATABASE', 'database_name');
+   define('DB_SERVER', 'localhost:3307');
+   define('DB_USERNAME', 'root');
+   define('DB_PASSWORD', '');
+   define('DB_DATABASE', 'proyecto_pds');
    $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 ?>
 
 <?php
-        $dbHost = 'host';
-        $dbUser = 'username';
-        $dbPass = 'password';
-        $dbName = 'database_name';
+        $dbHost = 'localhost:3307';
+        $dbUser = 'root';
+        $dbPass = '';
+        $dbName = 'proyecto_pds';
         $connection = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
 ?>
