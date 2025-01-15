@@ -35,7 +35,7 @@
 
                 // Fetch the listing details based on the ID and table
                 $selectSql = "SELECT * FROM $tableName WHERE id = $id";
-                $result = mysqli_query($connection, $selectSql);
+                $result = mysqli_query($db, $selectSql);
 
                 if ($result && mysqli_num_rows($result) > 0) {
                     $row = mysqli_fetch_assoc($result);
@@ -61,7 +61,7 @@
                 echo "Invalid request";
             }
 
-            mysqli_close($connection);
+            mysqli_close($db);
             ?>
 
 
