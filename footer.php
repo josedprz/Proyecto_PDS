@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="col-3">
-                <h3 class="footer-title">información</h3>
+                <h3 class="footer-title">Información</h3>
                 <div class="icon-list">
                     <li><a href="tel:+525556543572"><i class="ri-phone-fill"></i> 55 56 54 35 72</a></li>
                     <li><a href="pawfinder@gmail.com"><i class="ri-mail-fill"></i> pawfinder@gmail.com</a></li>

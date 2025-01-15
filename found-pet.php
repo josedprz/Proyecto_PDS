@@ -44,7 +44,7 @@
             <div class="found-form">
                 <form action="submit_found_pet.php" method="POST" enctype="multipart/form-data">
                     <div class="contact-details">
-                        <h2>información del dueño </h2>
+                        <h2>Información del dueño </h2>
                         <p class="found-form-para">Tu información es privada y secreta, nos encargaremos de darle buen uso y solo será utilizadda para fines de apoyo a este programa</p> 
                         <div class="d-flex gap-15 mob-flex-column">
                             <input type="text" id="name" name="name" placeholder="Tu nombre completo *" required/>  

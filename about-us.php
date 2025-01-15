@@ -37,18 +37,18 @@
                 </p>
                 <div class="btn-grp">
                     <a href="./lost-pet.php" class="btn-primary hero-btn-1">Perdí a mi mascota</a>
-                    <a href="./found-pet.php" class="btn-primary hero-btn-2">Encontré una mascota</a>
+                    <a href="./found-pet.php" class="btn-primary hero-btn-2">Encontré una <br>mascota</a>
             </div>
-
+            
             </div>
         </div>
         <div id="about">  
             <div class="right-abt">
-                <h3 class="sub-title">Discover the Core of PawFinder</h3>  
-                <h2 class="main-title">Our Heartfelt Mission</h2> 
-                <p class="abt-content">At PawFinder, our unwavering mission is to reunite every lost pet with their loving family. We believe that pets are more than just animals; they are cherished family members, and their safety and happiness matter deeply. Our platform is a haven for pet lovers, a place where compassion and community come together. We are committed to creating happiness by ensuring that pets find their way back to where they belong – in the loving embrace of their owners.
+                <h3 class="sub-title">Descubre PawFinder</h3>  
+                <h2 class="main-title">Nuestra Misión</h2> 
+                <p class="abt-content">En PawFinder, nuestra misión inquebrantable es reunir a cada mascota perdida con su familia amorosa. Creemos que las mascotas son más que simples animales; son miembros queridos de la familia, y su seguridad y felicidad son profundamente importantes. Nuestra plataforma es un refugio para los amantes de las mascotas, un lugar donde la compasión y la comunidad se unen. Estamos comprometidos a crear felicidad asegurando que las mascotas encuentren su camino de regreso a donde pertenecen – en el abrazo amoroso de sus dueños.
                 <br><br>
-                PawFinder is not just a project; it's a heartwarming journey that rekindles the bonds of love and companionship between pets and their families. Our measure of success is the joy in every reunion, the wagging tails, and the rekindling of those cherished moments that define the special relationship between pets and their owners. Join us in this mission, and let's make more tails wag and hearts smile together.</p>
+                PawFinder no es solo un proyecto; es un conmovedor viaje que reaviva los lazos de amor y compañerismo entre las mascotas y sus familias. Nuestra medida de éxito es la alegría en cada reencuentro, las colas moviéndose y el renacer de esos momentos preciados que definen la relación especial entre las mascotas y sus dueños. Únete a nosotros en esta misión, y hagamos que más colas se muevan y corazones sonrían juntos.</p>
             </div>
             <div class="left-abt">
                 <img src="./images/mission_img.jpg" alt="mission" style="margin-bottom:65px">
