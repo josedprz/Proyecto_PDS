@@ -1,5 +1,5 @@
 <?php
-        $dbHost = 'localhost:3307';
+        $dbHost = 'localhost:3306';
         $dbUser = 'root';
         $dbPass = '';
         $dbName = 'proyecto_pds';
