@@ -51,9 +51,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Set a session variable to indicate the form has been submitted
         session_start();
         $_SESSION['form_submitted'] = true;
+        $_SESSION['pet_name'] = $petName;
     
         // Redirect to the "Thank You" page
-        header("Location: thank-you.php");
+        header("Location: submitted.php");
         exit;
     } else {
         echo "Error: " . $sql . "<br>" . mysqli_error($connection);

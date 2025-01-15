@@ -85,21 +85,21 @@
                         <div class="d-flex gap-15 mob-flex-column">
                             <select id="pettype" name="petType" onchange="populateSecondSelect()" required>
                                 <option value="">Seleccione un tipo *</option>
-                                <option value="dog">Perro</option>
-                                <option value="cat">Gato</option>
-                                <option value="rabbit">Conejo</option>
-                                <option value="turtle">Tortuga</option>
-                                <option value="cow">Vaca</option>
-                                <option value="bird">Ave</option>
+                                <option value="perro">Perro</option>
+                                <option value="gato">Gato</option>
+                                <option value="conejo">Conejo</option>
+                                <option value="tortuga">Tortuga</option>
+                                <option value="vaca">Vaca</option>
+                                <option value="ave">Ave</option>
                             </select> 
                             <select id="petbreed" name="petBreed" required>
                                 <option value="">Seleccione una raza * (Primero elija el tipo)</option>
                             </select> 
                             <select id="size" name="size" required>
                                 <option value="">Tamaño *</option>
-                                <option value="large">Grande</option>
-                                <option value="medium">Mediano</option>
-                                <option value="small">Pequeño</option>
+                                <option value="Grande">Grande</option>
+                                <option value="Mediano ">Mediano</option>
+                                <option value="Chico">Chico</option>
                             </select>  
                             <input type="text" id="pet-name" name="petname" placeholder="Nombre de la mascota" required/> 
                             <input type="text" id="color" name="color" placeholder="Color de la mascota *" required/> 

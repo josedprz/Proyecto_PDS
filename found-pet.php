@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Macotas encontradas | PawFinder</title>
+    <title>Mascotas encontradas | PawFinder</title>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="icon" href="./images/logos/icon.png" type="image/png">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">    
@@ -17,8 +17,8 @@
         <?php include 'header.php'; ?>
 
         <div id="bread">
-            <h2 class="main-title">Macotas encontradas</h2> 
-            <p>Casa / Mascotas perdidas</p>  
+            <h2 class="main-title">Mascotas encontradas</h2> 
+            <p>Inicio / Mascotas perdidas</p>  
         </div>
         <div id="found-pet">
             <div class="found-content mob-flex-column">
@@ -27,7 +27,7 @@
                 </div>
                 <div class="found-content-right mob-width-100">
                     <img src="./images/comma.svg" alt="comma" class="comma">
-                    <p>Cada dia, innumerables mascotas se pierdes, lo que deja una gran desolación para la familia, en este momento, tu tienes la oportunidad de poder hacer una pequeña diferencia.
+                    <p>Cada dia, innumerables mascotas se pierden, lo que deja una gran desolación para la familia, en este momento, tu tienes la oportunidad de poder hacer una pequeña diferencia.
                     Favor de llenar el siguiente formualrio si encontraste a una mascota perdida, proporciona la mayor información que puedas y no escatimes en características.
                     
                     </p>
@@ -45,7 +45,7 @@
                 <form action="submit_found_pet.php" method="POST" enctype="multipart/form-data">
                     <div class="contact-details">
                         <h2>Información del dueño </h2>
-                        <p class="found-form-para">Tu información es privada y secreta, nos encargaremos de darle buen uso y solo será utilizadda para fines de apoyo a este programa</p> 
+                        <p class="found-form-para">Tu información es privada y secreta, nos encargaremos de darle buen uso y solo será utilizada para fines de apoyo a este programa</p> 
                         <div class="d-flex gap-15 mob-flex-column">
                             <input type="text" id="name" name="name" placeholder="Tu nombre completo *" required/>  
                             <input type="email" id="email" name="email" placeholder="Correo electrónico *" required  />
@@ -56,25 +56,26 @@
                         </div>
                     </div>
                     <div class="pet-details">
-                        <h2>Información de tu mascota</h2>
-                        <p class="found-form-para">Por favor de ser muy especifíco con las características de tu mascota</p> 
+                        <h2>Información de la mascota</h2>
+                        <p class="found-form-para">Por favor de ser muy especifíco con las características de la mascota</p> 
                         <div class="d-flex gap-15 mob-flex-column">
                             <select id="pettype" name="petType" onchange="populateSecondSelect()" required>
                                 <option value="">Selecciona tipo *</option>
-                                <option value="dog">Perro</option>
-                                <option value="cat">Gato</option>
-                                <option value="rabbit">Conejo</option>
-                                <option value="turtle">Tortuga</option>
-                                <option value="cow">Vaca</option>
+                                <option value="perro">Perro</option>
+                                <option value="gato">Gato</option>
+                                <option value="conejo">Conejo</option>
+                                <option value="tortuga">Tortuga</option>
+                                <option value="vaca">Vaca</option>
+                                <option value="ave">Ave</option>
                             </select> 
                             <select id="petbreed" name="petBreed" required>
                                 <option value="">Seleccione una raza * (Primero elija el tipo)</option>
                             </select> 
                             <select id="size" name="size" required>
                                 <option value="">Seleccione un tamaño *</option>
-                                <option value="large">Largo</option>
-                                <option value="medium">Mediano</option>
-                                <option value="small">Pequeño</option>
+                                <option value="Grande">Grande</option>
+                                <option value="Mediano">Mediano</option>
+                                <option value="Chico">Chico</option>
                             </select>  
                             <input type="text" id="pet-name" name="petname" placeholder="Nombre de mascota (Si hay uno)" required/> 
                             <input type="text" id="color" name="color" placeholder="Color de la mascota *" required/> 
@@ -102,7 +103,7 @@
                                 <div id="preview-container" class="preview-container mob-flex-column"></div>
                             </div>
                     </div>
-                    <input class="btn-primary found-submit" type="submit" value="Send Information">
+                    <input class="btn-primary found-submit" type="submit" value="Enviar Información">
                 </form>
             </div>
         </div>
