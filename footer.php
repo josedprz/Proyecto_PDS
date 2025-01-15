@@ -12,7 +12,7 @@
         <div class="foot-uper">
             <div class="col-1">
                 <h3 class="footer-title">Sobre nosotros</h3>
-                <p>PawFinder, sociedad encargada a reunir a mascotas perdidas con sus dueños.</p>
+                <p>Patitas a Casa, sociedad encargada a reunir a mascotas perdidas con sus dueños.</p>
                 <div class="socials">
                     <a href="facebook"><i class="ri-facebook-fill"></i></a>
                     <a href="instagram"><i class="ri-instagram-fill"></i></a>
@@ -30,16 +30,16 @@
                 </div>
             </div>
             <div class="col-3">
-                <h3 class="footer-title">información</h3>
+                <h3 class="footer-title">Información</h3>
                 <div class="icon-list">
                     <li><a href="tel:+525556543572"><i class="ri-phone-fill"></i> 55 56 54 35 72</a></li>
-                    <li><a href="pawfinder@gmail.com"><i class="ri-mail-fill"></i> pawfinder@gmail.com</a></li>
+                    <li><a href="patitasacasa@gmail.com"><i class="ri-mail-fill"></i> patitasacasa@gmail.com</a></li>
                     <li><a href="#"><i class="ri-map-pin-fill"></i> ESCOM, CDMX</a></li>
                 </div>
             </div>
         </div>
         <div class="foot-lower">
-            <p>Copyright © 2024 <span><a href="./index.php" style="color:#202020; text-decoration:none">PawFinder.</a> </span>Todos los derechos reservados</p>
+            <p>Copyright © 2025 <span><a href="./index.php" style="color:#202020; text-decoration:none">Patitas a Casa.</a> </span>Todos los derechos reservados</p>
         </div>
 
     </div>

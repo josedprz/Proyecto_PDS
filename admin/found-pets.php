@@ -33,7 +33,7 @@ include('session.php');
                     <?php
                         // Define your SQL query
                         $sql = "SELECT * FROM found_request";
-                        $result = $connection->query($sql);
+                        $result = $db->query($sql);
 
                         if (mysqli_num_rows($result) > 0) {
                             echo '<table>';
@@ -67,7 +67,7 @@ include('session.php');
                             echo '<p>No results found.</p>';
                         }
 
-                        mysqli_close($connection);
+                        mysqli_close($db);
                         ?>
 
 

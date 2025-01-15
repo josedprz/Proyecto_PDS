@@ -19,22 +19,22 @@ if (isset($_GET['id'])) {
     }
 
     // Perform the move query
-    if (mysqli_query($connection, $moveSql)) {
+    if (mysqli_query($db, $moveSql)) {
         // Move successful, now perform the delete query
-        if (mysqli_query($connection, $deleteSql)) {
+        if (mysqli_query($db, $deleteSql)) {
             // Redirect to the referring page
             $referrer = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : 'dashboard.php';
             header("Location: $referrer");
             exit(); // Ensure that no further code is executed after the redirect
         } else {
-            echo "Error deleting listing: " . mysqli_error($connection);
+            echo "Error deleting listing: " . mysqli_error($db);
         }
     } else {
-        echo "Error moving listing: " . mysqli_error($connection);
+        echo "Error moving listing: " . mysqli_error($db);
     }
 } else {
     echo "Invalid request";
 }
 
-mysqli_close($connection);
+mysqli_close($db);
 ?>

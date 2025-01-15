@@ -37,7 +37,7 @@
 <body>
 <nav >
         <div class="left-nav">
-            <a href="index.php" class="logo"><img src="images/logos/PawFinder Logo_black_transparent.png" alt=""></a>
+            <a href="index.php" class="logo"><img src="images/logos/Patitas Logo_black_transparent.png" alt=""></a>
         </div>
         <div class="menu menu-close">
             <i class="ri-close-fill hide-pc" id="button-close"></i>
@@ -52,17 +52,22 @@
 
             <div class="menu-bottom-mobile hide-pc">
                 <!-- <p>Donate Us</p> -->
+                <!--
                 <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_N4LecIZmHvesul" async> </script> </form>
+                -->
                 
             </div>
         </div>
 
         <div class="right-nav">
             <!-- <a href="#" id="pop-open" class="btn-primary ">Donate</a> -->
-            <form class="hide-mob"><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_N4LecIZmHvesul" async> </script> </form>
+            <!--
+              <form class="hide-mob"><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_N4LecIZmHvesul" async> </script> </form>
 
+            
+            <i class="ri-menu-2-line hide-pc" id="button-open"></i>  
+            -->
             <!-- <i class="fa fa-bars " "></i> -->
-            <i class="ri-menu-2-line hide-pc" id="button-open"></i>
         </div>
     </nav>
 

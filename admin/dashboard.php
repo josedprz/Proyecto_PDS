@@ -134,7 +134,7 @@ include('session.php');
                     <div>
                         <?php
                             $sql1 = "SELECT * FROM lost_request LIMIT 3";
-                            $result1 = $connection->query($sql1);
+                            $result1 = $db->query($sql1);
 
                             if (mysqli_num_rows($result1) > 0) {
                                 echo '<table>';
@@ -169,7 +169,7 @@ include('session.php');
                                 echo '<p style="margin:30px">No results found.</p>';
                             }
 
-                            mysqli_close($connection);
+                            mysqli_close($db);
                         ?>
                     </div>
                     <a href="lost-pets.php" class="btn-small " >Ver mas...</a>

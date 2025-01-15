@@ -19,13 +19,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                       pet_description = '$pet_description', $dateField = '$found_date' 
                   WHERE id = $id";
 
-    if (mysqli_query($connection, $updateSql)) {
+    if (mysqli_query($db, $updateSql)) {
         // Redirect to the referring page
         $referrer = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : 'dashboard.php';
         header("Location: $referrer");
         exit(); // Ensure that no further code is executed after the redirect
     } else {
-        echo "Error updating listing: " . mysqli_error($connection);
+        echo "Error updating listing: " . mysqli_error($db);
     }
 } else {
     echo "Invalid request";

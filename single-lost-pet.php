@@ -8,18 +8,19 @@
             $petId = $_GET['id'];
 
             // Define an SQL query to retrieve the pet's information based on the ID
-            $sql = "SELECT * FROM found_request WHERE id = " . $petId;
+            $sql = "SELECT * FROM lost_request WHERE id = " . $petId;
             $result = $connection->query($sql);
 
             $row = mysqli_fetch_assoc($result);
-            $imageUrls = explode(',', $row['found_images_url']);
+            $imageUrls = explode(',', $row['lost_images_url']);
+            
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $row['pet_name'] ?> | PawFinder</title>
+    <title><?php echo $row['pet_name'] ?> | Patitas a Casa</title>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="icon" href="./images/logos/icon.png" type="image/png">
 </head>
@@ -30,7 +31,7 @@
 
         <div id="bread">
             <h2 class="main-title"><?php echo $row['pet_name'] ?></h2> 
-            <p>Home / <?php echo $row['pet_name'] ?>  </p>  
+            <p>Inicio / <?php echo $row['pet_name'] ?>  </p>  
             <table class="styled-table">
     
 </table>
@@ -52,17 +53,17 @@
                     echo '<h4 class="single-category">' . $row['pet_type'] . '</h4>';
                     echo '<h1 class="single-title">' . $row['pet_name'] . '</h1>';
                     echo '<p class="single-desc">' . $row['pet_description'] . '</p>';
-                    echo '<a href="#" class="btn-primary"> Request Contact Details</a>';
+                    echo '<a href="contact-details.php?id=' . $petId . '" class="btn-primary"> Solicitar datos de Contacto</a>';
                     echo '<table class="styled-table">';
                     echo '<tbody>';
 
                         echo '<tr>';
-                        echo '<td>Breed:</td>';
+                        echo '<td>Raza:</td>';
                         echo '<td>'. $row['pet_breed'] .'</td>';
                         echo '</tr>';
 
                         echo '<tr>';
-                        echo '<td>Size:</td>';
+                        echo '<td>Tamaño:</td>';
                         echo '<td>'. $row['pet_size'] .'</td>';
                         echo '</tr>';
 
@@ -72,18 +73,18 @@
                         echo '</tr>';
 
                         echo '<tr>';
-                        echo '<td>Date Found:</td>';
-                        echo '<td>'. $row['found_date'] .'</td>';
+                        echo '<td>Fecha Extravío:</td>';
+                        echo '<td>'. $row['lost_date'] .'</td>';
                         echo '</tr>';
 
                         echo '<tr>';
-                        echo '<td>Time Found:</td>';
-                        echo '<td>'. $row['found_time'] .'</td>';
+                        echo '<td>Hora Extravío:</td>';
+                        echo '<td>'. $row['lost_time'] .'</td>';
                         echo '</tr>';
 
                         echo '<tr>';
-                        echo '<td>Time Place:</td>';
-                        echo '<td>'. $row['found_address'] .'</td>';
+                        echo '<td>Lugar Extravío:</td>';
+                        echo '<td>'. $row['lost_address'] .'</td>';
                         echo '</tr>';
                     echo '</tbody>';
                     echo '</table>';
@@ -103,14 +104,14 @@
                     }
 
                     // Define your SQL query
-                    $sql = "SELECT * FROM found_request ORDER BY RAND() LIMIT 4";
+                    $sql = "SELECT * FROM lost_request ORDER BY RAND() LIMIT 4";
                     $result = $connection->query($sql);
                     if (mysqli_num_rows($result) > 0) {
                         
 
                         while ($row = mysqli_fetch_assoc($result)) {
-                            if (!empty($row['found_images_url'])) {
-                                $imageUrls = explode(',', $row['found_images_url']);
+                            if (!empty($row['lost_images_url'])) {
+                                $imageUrls = explode(',', $row['lost_images_url']);
                                 foreach ($imageUrls as $imageUrl){}
 
                                 $singlePageLink = 'single-lost-pet.php?id=' . $row['id'];
@@ -123,7 +124,7 @@
                                 echo '<p class="card-category">'. $row['pet_type'] . '</p>';
                                 echo '<h2 class="card-title">' . $row['pet_name'] . '</h2>';
                                 echo '<p class="card-desc">' . $limitedDescription . '</p>';
-                                echo '<p class="card-detail">Date Found: ' . $row['found_date'] . '</p>';
+                                echo '<p class="card-detail">Fecha Extravío: ' . $row['lost_date'] . '</p>';
                                 echo '</div>';
                                 echo '</div>';
                                 echo '</a>';
@@ -139,7 +140,7 @@
                     
                 ?>
                 </div>
-                <a href="all-lost-pet.php" class="btn-primary" style="text-align:center">Vertodas las macotas perdidas</a>
+                <a href="all-lost-pet.php" class="btn-primary" style="text-align:center">Ver todas las macotas perdidas</a>
         <?php include 'footer.php'; ?>
     </div>
 

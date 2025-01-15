@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Macotas perdidas | PawFinder</title>
+    <title>Macotas perdidas | Patitas a Casa</title>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="icon" href="./images/logos/icon.png" type="image/png">
 </head>
@@ -26,14 +26,14 @@
                     }
 
                     // Define your SQL query
-                    $sql = "SELECT * FROM found_request ORDER BY RAND()";
+                    $sql = "SELECT * FROM lost_request ORDER BY RAND()";
                     $result = $connection->query($sql);
                     if (mysqli_num_rows($result) > 0) {
                         
 
                         while ($row = mysqli_fetch_assoc($result)) {
-                            if (!empty($row['found_images_url'])) {
-                                $imageUrls = explode(',', $row['found_images_url']);
+                            if (!empty($row['lost_images_url'])) {
+                                $imageUrls = explode(',', $row['lost_images_url']);
                                 foreach ($imageUrls as $imageUrl){}
 
                                 $singlePageLink = 'single-lost-pet.php?id=' . $row['id'];
@@ -46,7 +46,7 @@
                                 echo '<p class="card-category">'. $row['pet_type'] . '</p>';
                                 echo '<h2 class="card-title">' . $row['pet_name'] . '</h2>';
                                 echo '<p class="card-desc">' . $limitedDescription . '</p>';
-                                echo '<p class="card-detail">Date Found: ' . $row['found_date'] . '</p>';
+                                echo '<p class="card-detail">Fecha Extravío: ' . $row['lost_date'] . '</p>';
                                 echo '</div>';
                                 echo '</div>';
                                 echo '</a>';
@@ -85,20 +85,21 @@
                         <div class="d-flex gap-15 mob-flex-column">
                             <select id="pettype" name="petType" onchange="populateSecondSelect()" required>
                                 <option value="">Seleccione un tipo *</option>
-                                <option value="dog">Perro</option>
-                                <option value="cat">Gato</option>
-                                <option value="rabbit">Conejo</option>
-                                <option value="turtle">Tortuga</option>
-                                <option value="cow">Vaca</option>
+                                <option value="Perro">Perro</option>
+                                <option value="Gato">Gato</option>
+                                <option value="Conejo">Conejo</option>
+                                <option value="Tortuga">Tortuga</option>
+                                <option value="Vaca">Vaca</option>
+                                <option value="Ave">Ave</option>
                             </select> 
                             <select id="petbreed" name="petBreed" required>
                                 <option value="">Seleccione una raza * (Primero elija el tipo)</option>
                             </select> 
                             <select id="size" name="size" required>
                                 <option value="">Tamaño *</option>
-                                <option value="large">Largo</option>
-                                <option value="medium">Mediano</option>
-                                <option value="small">Pequeño</option>
+                                <option value="Grande">Grande</option>
+                                <option value="Mediano ">Mediano</option>
+                                <option value="Chico">Chico</option>
                             </select>  
                             <input type="text" id="pet-name" name="petname" placeholder="Nombre de la mascota" required/> 
                             <input type="text" id="color" name="color" placeholder="Color de la mascota *" required/> 
@@ -114,7 +115,7 @@
                             <label for="Date">Hora</label>
                             <input type="time" id="time" name="losttime" placeholder="Hora en la que fue encontrada" required/> 
                             <label for="address">Ubicación</label>
-                            <textarea placeholder="Ubicación donde fue encontrada *"  id="lost-add" name="lost-add" required></textarea> 
+                            <textarea placeholder="Ubicación donde se extravió *"  id="lost-add" name="lost-add" required></textarea> 
                             <label for="address">Subir imágenes</label>
                             <div class="custom-upload">
                                 <label for="photo-upload" class="custom-upload-label">
@@ -127,7 +128,7 @@
                                 <div id="preview-container" class="preview-container mob-flex-column"></div>
                             </div>
                     </div>
-                    <input class="btn-primary found-submit" type="submit" value="Send Information">
+                    <input class="btn-primary found-submit" type="submit" value="Enviar Información">
                 </form>
             </div>
 

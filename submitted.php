@@ -76,13 +76,11 @@ if (!isset($_SESSION['form_submitted'])) {
             <h2 class="main-title">Gracias</h2> 
             <p>Inicio / Gracias</p>  
         </div>
-
         <div class="thank-you-container">
             <img src="./paw-40.svg" alt="paw" class="paw-icon paw-top-right">
             <img src="./paw-40.svg" alt="paw" class="paw-icon paw-bottom-left">
-            <h1>¡Gracias por tu noble gesto! Al reportar esta mascota encontrada, te has convertido en parte fundamental de una red de ayuda que trabaja para reunir a las mascotas perdidas con sus familias. Tu información ha sido registrada y será visible para todas las personas que están buscando a sus compañeros peludos en nuestra plataforma. Te contactaremos inmediatamente si alguien reconoce a esta mascota. Mientras tanto, la información que has proporcionado ayudará a que circule en nuestra comunidad. Si tienes cualquier actualización o información adicional, puedes contactarnos directamente. Recuerda que tu acción de hoy podría significar el reencuentro de una familia con su querida mascota. ¡Gracias por ser parte de esta cadena de ayuda!</h1>
+            <h1>¡Gracias por reportar a tu mascota! Tu información ha sido registrada y será visible para nuestra comunidad. Hemos dado un paso importante para ayudar a que <strong style="color:#A35C7A;"><?php echo $_SESSION['pet_name']; ?></strong> regrese a casa. Te mantendremos informado de cualquier avistamiento o noticia a través del contacto que proporcionaste. No pierdas la esperanza - muchas mascotas se reencuentran con sus familias gracias a nuestra red de apoyo.</h1>
         </div>
-
         <div class="long"></div>
         <?php include 'footer.php'; ?>
     </div>

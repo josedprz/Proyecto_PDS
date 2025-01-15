@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre nosotros | PawFinder</title>
+    <title>Sobre nosotros | Patitas a Casa</title>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="icon" href="./images/logos/icon.png" type="image/png">
 </head>
@@ -23,8 +23,8 @@
                 <img src="./images/abt-section.png" alt="about" class="abt-img">
             </div>
             <div class="right-abt">
-                <h3 class="sub-title">Sobre PawFinder</h3>  
-                <h2 class="main-title">PawFinder</h2> 
+                <h3 class="sub-title">Sobre Patitas a Casa</h3>  
+                <h2 class="main-title">Patitas a Casa</h2> 
                 <p class="abt-content">
                     Bienvenidos a nuestra comunidad.
                     Sabemos que nuestra mascota es realmente importante para nosotros, son un miembro más de la familia donde muchas veces encontramos refugio.
@@ -37,18 +37,18 @@
                 </p>
                 <div class="btn-grp">
                     <a href="./lost-pet.php" class="btn-primary hero-btn-1">Perdí a mi mascota</a>
-                    <a href="./found-pet.php" class="btn-primary hero-btn-2">Encontré una mascota</a>
+                    <a href="./found-pet.php" class="btn-primary hero-btn-2">Encontré una <br>mascota</a>
             </div>
-
+            
             </div>
         </div>
         <div id="about">  
             <div class="right-abt">
-                <h3 class="sub-title">Discover the Core of PawFinder</h3>  
-                <h2 class="main-title">Our Heartfelt Mission</h2> 
-                <p class="abt-content">At PawFinder, our unwavering mission is to reunite every lost pet with their loving family. We believe that pets are more than just animals; they are cherished family members, and their safety and happiness matter deeply. Our platform is a haven for pet lovers, a place where compassion and community come together. We are committed to creating happiness by ensuring that pets find their way back to where they belong – in the loving embrace of their owners.
+                <h3 class="sub-title">Descubre Patitas a Casa</h3>  
+                <h2 class="main-title">Nuestra Misión</h2> 
+                <p class="abt-content">En Patitas a Casa, nuestra misión inquebrantable es reunir a cada mascota perdida con su familia amorosa. Creemos que las mascotas son más que simples animales; son miembros queridos de la familia, y su seguridad y felicidad son profundamente importantes. Nuestra plataforma es un refugio para los amantes de las mascotas, un lugar donde la compasión y la comunidad se unen. Estamos comprometidos a crear felicidad asegurando que las mascotas encuentren su camino de regreso a donde pertenecen – en el abrazo amoroso de sus dueños.
                 <br><br>
-                PawFinder is not just a project; it's a heartwarming journey that rekindles the bonds of love and companionship between pets and their families. Our measure of success is the joy in every reunion, the wagging tails, and the rekindling of those cherished moments that define the special relationship between pets and their owners. Join us in this mission, and let's make more tails wag and hearts smile together.</p>
+                Patitas a Casa no es solo un proyecto; es un conmovedor viaje que reaviva los lazos de amor y compañerismo entre las mascotas y sus familias. Nuestra medida de éxito es la alegría en cada reencuentro, las colas moviéndose y el renacer de esos momentos preciados que definen la relación especial entre las mascotas y sus dueños. Únete a nosotros en esta misión, y hagamos que más colas se muevan y corazones sonrían juntos.</p>
             </div>
             <div class="left-abt">
                 <img src="./images/mission_img.jpg" alt="mission" style="margin-bottom:65px">
@@ -64,7 +64,7 @@
                 <div class="owl-carousel">
                         <div class="item">
                             <div class="testi-content">
-                                <p class="text-justify">"PawFinder me ayudó bastante a mantener la esperanza de poder reencontrarme con mi perrito Tomas, hace unos meses que lo había perdido y estaba perdiendo la fe de volver a verlo otra vez, el es mi mejor amigo y agradezco a dios que lo haya encontrado."</p>
+                                <p class="text-justify">"Patitas a Casa me ayudó bastante a mantener la esperanza de poder reencontrarme con mi perrito Tomas, hace unos meses que lo había perdido y estaba perdiendo la fe de volver a verlo otra vez, el es mi mejor amigo y agradezco a dios que lo haya encontrado."</p>
                                 <div>
                                     <h3>Eduardo Garcia</h3>
                                     <h3>Azcapotzalco, CDMX</h3>
@@ -75,7 +75,7 @@
 
                         <div class="item">
                             <div class="testi-content">
-                                <p class="text-justify">"PawFinder me salvó, había perdido a mi perrita Luna cuando paseaba por el parque, pegué muchos carteles por toda la ciudad pero ninguna llamada, y las pocas que recibía, resultaba no ser Luna después de todo, pero gracias a que encontré esta página, pude por fin reencontrarme con ella"</p>
+                                <p class="text-justify">"Patitas a Casa me salvó, había perdido a mi perrita Luna cuando paseaba por el parque, pegué muchos carteles por toda la ciudad pero ninguna llamada, y las pocas que recibía, resultaba no ser Luna después de todo, pero gracias a que encontré esta página, pude por fin reencontrarme con ella"</p>
                                 <div>
                                     <h3>Paulina Gomez</h3>
                                     <h3>Iztapalapa. CDMX</h3>
@@ -87,7 +87,7 @@
 
                         <div class="item">
                             <div class="testi-content">
-                                <p class="text-justify">"PawFinder fue mi salvación cuando Max desapareció. En medio del bullicio de la Ciudad de México, estaba llena de preocupación. La sección de 'Mascotas Encontradas' en PawFinder me conectó rápidamente con el dueño de Max. Ahora, Max está de vuelta con su familia, y todo se lo debo a PawFinder. ¡Gracias!"</p>
+                                <p class="text-justify">"Patitas a Casa fue mi salvación cuando Max desapareció. En medio del bullicio de la Ciudad de México, estaba llena de preocupación. La sección de 'Mascotas Encontradas' en Patitas a Casa me conectó rápidamente con el dueño de Max. Ahora, Max está de vuelta con su familia, y todo se lo debo a Patitas a Casa. ¡Gracias!"</p>
                                 <div>
                                     <h3>Karina Gonzáles</h3>
                                     <h3>Cuauhtémoc CDMX</h3>
@@ -110,21 +110,21 @@
             <div class="lowerfaq">
                 <div class="lower-left-faq">
                     <div class="faq">
-                        <button class="accordion">1. ¿Qué es PawFinder?</button>
+                        <button class="accordion">1. ¿Qué es Patitas a Casa?</button>
                         <div class="panel">
-                            <p>PawFinder es una plataforma impulsada por la comunidad dedicada a reunir mascotas perdidas con sus familias.</p>
+                            <p>Patitas a Casa es una plataforma impulsada por la comunidad dedicada a reunir mascotas perdidas con sus familias.</p>
                         </div>
                     </div>
                     <div class="faq">
-                        <button class="accordion">2. ¿Cómo funciona PawFinder?</button>
+                        <button class="accordion">2. ¿Cómo funciona Patitas a Casa?</button>
                         <div class="panel">
-                            <p>Si has perdido una mascota, puedes crear una publicación de 'Mascota Perdida' con los detalles sobre tu mascota. Si has encontrado una mascota, puedes crear una publicación de 'Mascota Encontrada'. La comunidad de PawFinder ayuda a conectar a las mascotas perdidas con sus dueños.</p>
+                            <p>Si has perdido una mascota, puedes crear una publicación de 'Mascota Perdida' con los detalles sobre tu mascota. Si has encontrado una mascota, puedes crear una publicación de 'Mascota Encontrada'. La comunidad de Patitas a Casa ayuda a conectar a las mascotas perdidas con sus dueños.</p>
                         </div>
                     </div>
                     <div class="faq">
-                        <button class="accordion">3. ¿PawFinder es gratuito?</button>
+                        <button class="accordion">3. ¿Patitas a Casa es gratuito?</button>
                         <div class="panel">
-                            <p>Sí, PawFinder es gratuito. Nuestro principal objetivo es devolver a las mascotas a casa, y creemos en el poder del apoyo comunitario y la compasión.</p>
+                            <p>Sí, Patitas a Casa es gratuito. Nuestro principal objetivo es devolver a las mascotas a casa, y creemos en el poder del apoyo comunitario y la compasión.</p>
                         </div>
                     </div>
                 </div>
@@ -137,13 +137,13 @@
                         </div>
                     </div>
                     <div class="faq">
-                        <button class="accordion">5. ¿Cómo puedo apoyar la misión de PawFinder?</button>
+                        <button class="accordion">5. ¿Cómo puedo apoyar la misión de Patitas a Casa?</button>
                         <div class="panel">
                             <p>Puedes apoyarnos siendo un miembro activo de nuestra comunidad, compartiendo tus historias, ayudando a reunir mascotas perdidas y promoviendo la tenencia responsable de mascotas. ¡Cada acción cuenta!</p>
                         </div>
                     </div>
                     <div class="faq">
-                        <button class="accordion">6. ¿Mi información personal está segura en PawFinder?</button>
+                        <button class="accordion">6. ¿Mi información personal está segura en Patitas a Casa?</button>
                         <div class="panel">
                             <p>Nos tomamos la privacidad de los usuarios muy en serio. La información personal se mantiene segura y solo se comparte con quienes la necesiten para facilitar el proceso de reencuentro.</p>
                         </div>

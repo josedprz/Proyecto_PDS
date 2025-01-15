@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Macotas perdidas | PawFinder</title>
+    <title>Macotas perdidas | Patitas a Casa</title>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="icon" href="./images/logos/icon.png" type="image/png">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
@@ -60,7 +60,7 @@
         <div id="lost-pet" class="">
             <div id="search-form" class="">
                 <form>
-                    <input type="text" class="search-input" name="search" id="search" placeholder="Search by name, type, color,etc...">
+                    <input type="text" class="search-input" name="search" id="search" placeholder="Buscar por nombre, tipo, color, etc...">
                     <i class="ri-search-line search-icon"></i>
                 </form>
             </div>

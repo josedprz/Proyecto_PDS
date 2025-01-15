@@ -32,11 +32,12 @@ accordions.forEach((accordion) => {
 //Form Select & Options
 // Define options for the second dropdown based on the selected category
  const optionsByCategory = {
-    dog: ["Labrador Retriever","Bulldog", "German Shepherd", "Golden Retriever", "Beagle", "Pomeranian", "Dachshund", "Boxer", "Pug", "Rottweiler", "Shih Tzu"],
-    cat: ["Persian", "Siamese", "Maine Coon", "Ragdoll", "British Shorthair", "Abyssinian", "Bengal", "Burmese", "Scottish Fold", "Sphynx"],
-    rabbit: ["Holland Lop", "Netherland Dwarf", "Mini Rex", "Lionhead", "Mini Lop", "Flemish Giant", "English Angora", "Polish", "Himalayan", "Harlequin"],
-    turtle: ["Red-eared Slider", "Indian Tent Turtle", "Three-striped Roofed Turtle", "Indian Flapshell Turtle", "Indian Softshell Turtle", "Black Pond Turtle", "Indian Spotted Pond Turtle", "Leith's Softshell Turtle", "Indian Peacock Softshell Turtle", "Indian Narrow-headed Softshell Turtle"],
-    cow: ["Jersey Cow", "Holstein Friesian", "Gir Cow", "Sahiwal Cow", "Rathi Cow", "Ongole Cow", "Red Sindhi Cow", "Tharparkar Cow", "Kankrej Cow", "Hariana Cow"],
+        Perro: ["Labrador Retriever", "Bulldog Inglés", "Pastor Alemán", "Golden Retriever", "Beagle", "Chihuahua", "Pomerania", "Dachshund", "Bóxer", "Rottweiler"],
+        Gato: ["Persa", "Siamés", "Maine Coon", "Ragdoll", "Bengala", "British Shorthair", "Abisinio", "Scottish Fold", "Esfinge", "Bombay"],
+        Conejo: ["Holland Lop", "Netherland Dwarf", "Mini Rex", "Lionhead", "Mini Lop", "Gigante Flamenco", "Angora Inglés", "Polaco", "Himalaya", "Arlequín"],
+        Tortuga: ["Tortuga de Orejas Rojas", "Tortuga Leopardo", "Tortuga Rusa", "Tortuga de Caja", "Tortuga de Estrella India", "Tortuga Sulcata", "Tortuga de Estanque China", "Tortuga Mapa", "Tortuga Aligator", "Tortuga Mordedora"],
+        Ave: ["Periquito Australiano", "Cacatúa Ninfa", "Canario", "Agapornis", "Diamante Mandarín", "Periquito Inglés", "Amazonas de Frente Azul", "Guacamayo", "Cotorra Argentina", "Loro Eclectus"],
+        Vaca: ["Jersey", "Holstein Friesian", "Sahiwal", "Rathi", "Tharparkar", "Gir", "Red Sindhi", "Ongole", "Kankrej", "Hariana"],
 };
 
 // Function to populate the second dropdown based on the selected category
@@ -46,7 +47,7 @@ function populateSecondSelect() {
     const selectedCategory = firstSelect.value;
 
     // Clear the second dropdown
-    secondSelect.innerHTML = '<option value="">Select a Breed *</option>';
+    secondSelect.innerHTML = '<option value="">Selecciona una Raza *</option>';
 
     // Populate the second dropdown with options based on the selected category
     if (selectedCategory in optionsByCategory) {
@@ -85,11 +86,11 @@ function updatePhotoCount() {
     const fileCount = selectedFiles.length;
 
     if (fileCount === 0) {
-        selectedPhotos.innerHTML = "<p>No photos selected</p>";
+        selectedPhotos.innerHTML = "<p>No se seleccionaron fotos</p>";
     } else if (fileCount === 1) {
-        selectedPhotos.innerHTML = `<p>${fileCount} photo selected</p>`;
+        selectedPhotos.innerHTML = `<p>${fileCount} foto seleccionada</p>`;
     } else {
-        selectedPhotos.innerHTML = `<p>${fileCount} photos selected</p>`;
+        selectedPhotos.innerHTML = `<p>${fileCount} fotos seleccionadas</p>`;
     }
 }
 
