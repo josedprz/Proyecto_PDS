@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Macotas perdidas | PawFinder</title>
+    <title>Macotas perdidas | Patitas a Casa</title>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="icon" href="./images/logos/icon.png" type="image/png">
 </head>

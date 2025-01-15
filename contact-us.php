@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto | PawFinder</title>
+    <title>Contacto | Patitas a Casa</title>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="icon" href="./images/logos/icon.png" type="image/png">
 </head>
@@ -22,7 +22,7 @@
         <div class="contact-info">
             <h2>Contacto</h2>
             <p>Si tienes alguna pregunta o quieres saber más información sobre nosotros, contáctanos</p>
-            <p>Email: pawfinder@gmail.com</p>
+            <p>Email: patitasacasa@gmail.com</p>
             <p>Teléfono: 55 56 54 35 72 </p>
         </div>
         <div class="contact-form">

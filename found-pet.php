@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mascotas encontradas | PawFinder</title>
+    <title>Mascotas encontradas | Patitas a Casa</title>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="icon" href="./images/logos/icon.png" type="image/png">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">    
