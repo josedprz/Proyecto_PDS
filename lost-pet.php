@@ -90,13 +90,14 @@
                                 <option value="rabbit">Conejo</option>
                                 <option value="turtle">Tortuga</option>
                                 <option value="cow">Vaca</option>
+                                <option value="bird">Ave</option>
                             </select> 
                             <select id="petbreed" name="petBreed" required>
                                 <option value="">Seleccione una raza * (Primero elija el tipo)</option>
                             </select> 
                             <select id="size" name="size" required>
                                 <option value="">Tamaño *</option>
-                                <option value="large">Largo</option>
+                                <option value="large">Grande</option>
                                 <option value="medium">Mediano</option>
                                 <option value="small">Pequeño</option>
                             </select>  
@@ -114,7 +115,7 @@
                             <label for="Date">Hora</label>
                             <input type="time" id="time" name="losttime" placeholder="Hora en la que fue encontrada" required/> 
                             <label for="address">Ubicación</label>
-                            <textarea placeholder="Ubicación donde fue encontrada *"  id="lost-add" name="lost-add" required></textarea> 
+                            <textarea placeholder="Ubicación donde se extravió *"  id="lost-add" name="lost-add" required></textarea> 
                             <label for="address">Subir imágenes</label>
                             <div class="custom-upload">
                                 <label for="photo-upload" class="custom-upload-label">
@@ -127,7 +128,7 @@
                                 <div id="preview-container" class="preview-container mob-flex-column"></div>
                             </div>
                     </div>
-                    <input class="btn-primary found-submit" type="submit" value="Send Information">
+                    <input class="btn-primary found-submit" type="submit" value="Enviar Información">
                 </form>
             </div>
 
