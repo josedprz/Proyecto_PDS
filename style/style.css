@@ -13,7 +13,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Varela Round', sans-serif;
-    
+    cursor:url(../paw-30.svg), auto !important;
     -webkit-tap-highlight-color: #f2ebe750;
 }
 
@@ -49,7 +49,7 @@ a, input[type="submit" i]{
 #main{
     background-color: var(--bg-color);
     /* padding: 0 50px; */
-    
+    cursor:url(../paw-30.svg),auto !important;
 }
 
 html{
