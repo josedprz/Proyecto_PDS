@@ -3,12 +3,12 @@
 var myVar;
 
 function myFunction() {
-myVar = setTimeout(showPage, 1000);
+    myVar = setTimeout(showPage, 1000);
 }
 
 function showPage() {
-document.getElementById("loader").style.display = "none";
-document.getElementById("main").style.display = "block";
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("main").style.display = "block";
 }
 
 
@@ -31,13 +31,14 @@ accordions.forEach((accordion) => {
 
 //Form Select & Options
 // Define options for the second dropdown based on the selected category
- const optionsByCategory = {
-    dog: ["Labrador Retriever","Bulldog", "German Shepherd", "Golden Retriever", "Beagle", "Pomeranian", "Dachshund", "Boxer", "Pug", "Rottweiler", "Shih Tzu"],
-    cat: ["Persian", "Siamese", "Maine Coon", "Ragdoll", "British Shorthair", "Abyssinian", "Bengal", "Burmese", "Scottish Fold", "Sphynx"],
-    rabbit: ["Holland Lop", "Netherland Dwarf", "Mini Rex", "Lionhead", "Mini Lop", "Flemish Giant", "English Angora", "Polish", "Himalayan", "Harlequin"],
-    turtle: ["Red-eared Slider", "Indian Tent Turtle", "Three-striped Roofed Turtle", "Indian Flapshell Turtle", "Indian Softshell Turtle", "Black Pond Turtle", "Indian Spotted Pond Turtle", "Leith's Softshell Turtle", "Indian Peacock Softshell Turtle", "Indian Narrow-headed Softshell Turtle"],
-    cow: ["Jersey Cow", "Holstein Friesian", "Gir Cow", "Sahiwal Cow", "Rathi Cow", "Ongole Cow", "Red Sindhi Cow", "Tharparkar Cow", "Kankrej Cow", "Hariana Cow"],
+const optionsByCategory = {
+    dog: ["Labrador Retriever", "Bulldog", "Pastor Alemán", "Golden Retriever", "Beagle", "Pomerania", "Dachshund", "Bóxer", "Pug", "Rottweiler", "Shih Tzu"],
+    cat: ["Persa", "Siamés", "Maine Coon", "Ragdoll", "Británico de Pelo Corto", "Abisinio", "Bengala", "Birmano", "Fold Escocés", "Esfinge"],
+    rabbit: ["Holland Lop", "Enano de los Países Bajos", "Mini Rex", "Cabeza de León", "Mini Lop", "Gigante de Flandes", "Angora Inglés", "Polaco", "Himalayo", "Arlequín"],
+    turtle: ["Deslizador de Orejas Rojas", "Tortuga de Tienda India", "Tortuga de Techo con Tres Rayas", "Tortuga de Caparazón Blando India", "Tortuga Negra de Estanque", "Tortuga de Estanque Manchada India", "Tortuga de Caparazón Blando de Leith", "Tortuga de Caparazón Blando con Plumas de Pavo Real", "Tortuga de Caparazón Blando con Cabeza Estrecha India"],
+    cow: ["Vaca Jersey", "Holstein Friesian", "Vaca Gir", "Vaca Sahiwal", "Vaca Rathi", "Vaca Ongole", "Vaca Sindhi Roja", "Vaca Tharparkar", "Vaca Kankrej", "Vaca Hariana"],
 };
+
 
 // Function to populate the second dropdown based on the selected category
 function populateSecondSelect() {
@@ -46,7 +47,7 @@ function populateSecondSelect() {
     const selectedCategory = firstSelect.value;
 
     // Clear the second dropdown
-    secondSelect.innerHTML = '<option value="">Select a Breed *</option>';
+    secondSelect.innerHTML = '<option value="">Selecciona una raza *</option>';
 
     // Populate the second dropdown with options based on the selected category
     if (selectedCategory in optionsByCategory) {
@@ -85,11 +86,11 @@ function updatePhotoCount() {
     const fileCount = selectedFiles.length;
 
     if (fileCount === 0) {
-        selectedPhotos.innerHTML = "<p>No photos selected</p>";
+        selectedPhotos.innerHTML = "<p>No hay fotos seleccionadas</p>";
     } else if (fileCount === 1) {
-        selectedPhotos.innerHTML = `<p>${fileCount} photo selected</p>`;
+        selectedPhotos.innerHTML = `<p>${fileCount} Foto seleccionada</p>`;
     } else {
-        selectedPhotos.innerHTML = `<p>${fileCount} photos selected</p>`;
+        selectedPhotos.innerHTML = `<p>${fileCount} Foto seleccionada</p>`;
     }
 }
 

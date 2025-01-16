@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre nosotros | Patitas a casa</title>
+    <title>Sobre nosotros | Patitas empolvadas</title>
     <link rel="stylesheet" href="../style/style.css">
-    <link rel="icon" href="./images/logos/icon.png" type="image/png">
+    <link rel="icon" href="./images/logos/logoPatitas.png" type="image/png">
 </head>
 <body onload="myFunction()">
 <div class="load" id="loader"><hr/><hr/><hr/><hr/></div>
@@ -23,17 +23,15 @@
                 <img src="./images/abt-section.png" alt="about" class="abt-img">
             </div>
             <div class="right-abt">
-                <h3 class="sub-title">Sobre Patitas a casa</h3>  
-                <h2 class="main-title">Patitas a casa</h2> 
+                <h3 class="sub-title">Sobre Patitas empolvasas</h3>  
+                <h2 class="main-title"></h2> 
                 <p class="abt-content">
-                    Bienvenidos a nuestra comunidad.
-                    Sabemos que nuestra mascota es realmente importante para nosotros, son un miembro más de la familia donde muchas veces encontramos refugio.
-                    Seguramente, cuando desafortunadamente se extravían queremos hacer todo lo posible para encontrarla, y tenemos la esperanza de poder hacerlo lo más pronto posible.
-                    Por lo cual, el objetivo de esta organización es poder ayudar a las personas que han perdido a alguna mascota a que se puedan reencontrar de nuevo con ella.
+                Bienvenidos a nuestra comunidad!
+                    En esta página podrás saber sobre nosotros y nuestro labor con los animales.
+                    <br><br>
+                    A nosotros nos encanta ayudar a las mascotas, por esto mismo organizamos diferentes actividades en nuestras instalaciones, como bazares, eventos y algunos servicios como adopcion, refugio y esterilización. Mayormente en perros.
                      <br><br>
-                    Esta página está dedicada a ello, donde los usuarios pueden comunicarse, compartir historias, encontrar apoyo y esperanza.
-                     <br><br>
-                    Te hacemos una invitación a unirte a nosotros y poder ser testigo cada reencuentro.
+                    
                 </p>
                 <div class="btn-grp">
                     <a href="./lost-pet.php" class="btn-primary hero-btn-1">Perdí a mi mascota</a>
@@ -44,11 +42,21 @@
         </div>
         <div id="about">  
             <div class="right-abt">
-                <h3 class="sub-title">Descubre mas sobre Patitas a casa</h3>  
+                <h3 class="sub-title">Descubre mas sobre Patitas empolvadas</h3>  
                 <h2 class="main-title">Nuestra mision</h2> 
-                <p class="abt-content">At Patitas a casa, our unwavering mission is to reunite every lost pet with their loving family. We believe that pets are more than just animals; they are cherished family members, and their safety and happiness matter deeply. Our platform is a haven for pet lovers, a place where compassion and community come together. We are committed to creating happiness by ensuring that pets find their way back to where they belong – in the loving embrace of their owners.
-                <br><br>
-                Patitas a casa is not just a project; it's a heartwarming journey that rekindles the bonds of love and companionship between pets and their families. Our measure of success is the joy in every reunion, the wagging tails, and the rekindling of those cherished moments that define the special relationship between pets and their owners. Join us in this mission, and let's make more tails wag and hearts smile together.</p>
+                <p class="abt-content">
+                Nuestra misión es ser un puente de esperanza para los animales en situación de vulnerabilidad, enfocándonos especialmente en los perros que necesitan una segunda oportunidad. A través de nuestra página, buscamos:
+                    <ul>
+                        <li><strong>Fomentar el bienestar animal</strong>
+                        </li>
+                        <li><strong>Promover la solidaridad comunitaria</strong>
+                        </li>
+                        <li><strong>Fortalecer la conexión entre personas y animales</strong>
+                        </li>
+                        <li><strong>Crear conciencia y educación</strong>
+                        </li>
+                    </ul>
+                </p>
             </div>
             <div class="left-abt">
                 <img src="./images/mission_img.jpg" alt="mission" style="margin-bottom:65px">
@@ -57,17 +65,17 @@
 
         <div id="testimonial">
             <div class="uper-testi">
-                <h1 class="main-title">Testimonios</h1>
-                <p class="sub-title">Testimonios de nuestra comunidad</p>
+                <h1 class="main-title">Noticias recientes</h1>
+                <p class="sub-title">Importante!</p>
             </div>
             <div class="lower-testi">   
                 <div class="owl-carousel">
                         <div class="item">
                             <div class="testi-content">
-                                <p class="text-justify">"Patitas a casa me ayudó bastante a mantener la esperanza de poder reencontrarme con mi perrito Tomas, hace unos meses que lo había perdido y estaba perdiendo la fe de volver a verlo otra vez, el es mi mejor amigo y agradezco a dios que lo haya encontrado."</p>
+                                <p class="text-justify">Perrita cruza de chihuahua perdido por la nueva unidad deportiva</p>
                                 <div>
-                                    <h3>Eduardo Garcia</h3>
-                                    <h3>Azcapotzalco, CDMX</h3>
+                                    <h3>Isabell Vazquez</h3>
+                                    <h3>Comitán, Chiapas</h3>
                                 </div>
                                 <img src="./paw-40.svg" alt="paw-bg" class="testi-bg">
                             </div>
@@ -75,10 +83,11 @@
 
                         <div class="item">
                             <div class="testi-content">
-                                <p class="text-justify">"Patitas a casa me salvó, había perdido a mi perrita Luna cuando paseaba por el parque, pegué muchos carteles por toda la ciudad pero ninguna llamada, y las pocas que recibía, resultaba no ser Luna después de todo, pero gracias a que encontré esta página, pude por fin reencontrarme con ella"</p>
+                                <p class="text-justify">La cachorrita atropellada por la palapa de los morros el 28 de diciembre.
+                                Necesitamos comprar antibiótico, gazas, vendas, antiséptico, pañales.</p>
                                 <div>
-                                    <h3>Paulina Gomez</h3>
-                                    <h3>Iztapalapa. CDMX</h3>
+                                    <h3>Isabell Vazquez</h3>
+                                    <h3>Comitán, Chiapas</h3>
                                 <img src="./paw-40.svg" alt="paw-bg" class="testi-bg">
                                     
                                 </div>
@@ -87,10 +96,10 @@
 
                         <div class="item">
                             <div class="testi-content">
-                                <p class="text-justify">"Patitas a casa fue mi salvación cuando Max desapareció. En medio del bullicio de la Ciudad de México, estaba llena de preocupación. La sección de 'Mascotas Encontradas' en Patitas a casa me conectó rápidamente con el dueño de Max. Ahora, Max está de vuelta con su familia, y todo se lo debo a Patitas a casa. ¡Gracias!"</p>
+                                <p class="text-justify">Hoy #Osito uno de los perritos de la plaza bulevar se fue aprueva de Adopción, manden buenas vibras para que sea su hogar difinitivo</p>
                                 <div>
-                                    <h3>Karina Gonzáles</h3>
-                                    <h3>Cuauhtémoc CDMX</h3>
+                                    <h3>Isabell Vazquez</h3>
+                                    <h3>Comitán, Chiapas</h3>
                                 <img src="./paw-40.svg" alt="paw-bg" class="testi-bg">
 
                                 </div>
@@ -110,21 +119,21 @@
             <div class="lowerfaq">
                 <div class="lower-left-faq">
                     <div class="faq">
-                        <button class="accordion">1. ¿Qué es Patitas a casa?</button>
+                        <button class="accordion">1. ¿Qué es Patitas enpolvadas?</button>
                         <div class="panel">
-                            <p>Patitas a casa es una plataforma impulsada por la comunidad dedicada a reunir mascotas perdidas con sus familias.</p>
+                            <p>Patitas empolvadas es una plataforma impulsada por la comunidad dedicada a reunir mascotas perdidas con sus familias.</p>
                         </div>
                     </div>
                     <div class="faq">
-                        <button class="accordion">2. ¿Cómo funciona Patitas a casa?</button>
+                        <button class="accordion">2. ¿Cómo funciona Patitas empolvadas?</button>
                         <div class="panel">
-                            <p>Si has perdido una mascota, puedes crear una publicación de 'Mascota Perdida' con los detalles sobre tu mascota. Si has encontrado una mascota, puedes crear una publicación de 'Mascota Encontrada'. La comunidad de Patitas a casa ayuda a conectar a las mascotas perdidas con sus dueños.</p>
+                            <p>Si has perdido una mascota, puedes crear una publicación de 'Mascota Perdida' con los detalles sobre tu mascota. Si has encontrado una mascota, puedes crear una publicación de 'Mascota Encontrada'. La comunidad de Patitas empolvadas ayuda a conectar a las mascotas perdidas con sus dueños.</p>
                         </div>
                     </div>
                     <div class="faq">
-                        <button class="accordion">3. ¿Patitas a casa es gratuito?</button>
+                        <button class="accordion">3. ¿Patitas empolvadas es gratuito?</button>
                         <div class="panel">
-                            <p>Sí, Patitas a casa es gratuito. Nuestro principal objetivo es devolver a las mascotas a casa, y creemos en el poder del apoyo comunitario y la compasión.</p>
+                            <p>Patitas empolvadas no es dl todo gratuito, tenemos que recibir donaciones para poder seguir con nuestra labor de ayudar a los animales</p>
                         </div>
                     </div>
                 </div>
@@ -137,15 +146,15 @@
                         </div>
                     </div>
                     <div class="faq">
-                        <button class="accordion">5. ¿Cómo puedo apoyar la misión de Patitas a casa?</button>
+                        <button class="accordion">5. ¿Cómo puedo apoyar la misión de Patitas empolvadas?</button>
                         <div class="panel">
                             <p>Puedes apoyarnos siendo un miembro activo de nuestra comunidad, compartiendo tus historias, ayudando a reunir mascotas perdidas y promoviendo la tenencia responsable de mascotas. ¡Cada acción cuenta!</p>
                         </div>
                     </div>
                     <div class="faq">
-                        <button class="accordion">6. ¿Mi información personal está segura en Patitas a casa?</button>
+                        <button class="accordion">6. ¿Mi información personal está segura en Patitas empolvadas?</button>
                         <div class="panel">
-                            <p>Nos tomamos la privacidad de los usuarios muy en serio. La información personal se mantiene segura y solo se comparte con quienes la necesiten para facilitar el proceso de reencuentro.</p>
+                            <p>La información personal se mantiene segura y solo se comparte con quienes la necesiten para facilitar el proceso de reencuentro.</p>
                         </div>
                     </div>
                 </div>

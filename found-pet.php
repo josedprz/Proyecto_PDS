@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Macotas encontradas | Patitas a casa</title>
     <link rel="stylesheet" href="../style/style.css">
-    <link rel="icon" href="./images/logos/icon.png" type="image/png">
+    <link rel="icon" href="./images/logos/logoPatitas.png" type="image/png">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">    
 </head>
 <body onload="myFunction()">
@@ -72,7 +72,7 @@
                             </select> 
                             <select id="size" name="size" required>
                                 <option value="">Seleccione un tamaño *</option>
-                                <option value="large">Largo</option>
+                                <option value="large">Grande</option>
                                 <option value="medium">Mediano</option>
                                 <option value="small">Pequeño</option>
                             </select>  

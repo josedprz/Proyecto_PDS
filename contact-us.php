@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactanos | Patitas a casa</title>
     <link rel="stylesheet" href="../style/style.css">
-    <link rel="icon" href="./images/logos/icon.png" type="image/png">
+    <link rel="icon" href="./images/logos/logoPatitas.png" type="image/png">
 </head>
 <body onload="myFunction()">
 <div class="load" id="loader"><hr/><hr/><hr/><hr/></div>

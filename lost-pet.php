@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Macotas perdidas | Patitas a casa</title>
     <link rel="stylesheet" href="../style/style.css">
-    <link rel="icon" href="./images/logos/icon.png" type="image/png">
+    <link rel="icon" href="./images/logos/logoPatitas.png" type="image/png">
 </head>
 <body onload="myFunction()">
 <div class="load" id="loader"><hr/><hr/><hr/><hr/></div>
@@ -96,7 +96,7 @@
                             </select> 
                             <select id="size" name="size" required>
                                 <option value="">Tamaño *</option>
-                                <option value="large">Largo</option>
+                                <option value="large">Grande</option>
                                 <option value="medium">Mediano</option>
                                 <option value="small">Pequeño</option>
                             </select>  

@@ -31,7 +31,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login | Patitas a casa</title>
+    <title>Login | Patitas empolvadas</title>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="icon" href="../images/logos/icon.png" type="image/png">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
@@ -49,7 +49,7 @@
                     <input type =  "submit" id = "btn" value = "Login" class="btn-primary"  />  
                     <p style="color:#dd0000; text-align:center"><?php echo $error ?></p>
                 </form>  
-            <a href="../index.php" class="back-to-home"><p>Go to Home Page</p></a>
+            <a href="../index.php" class="back-to-home"><p>Ir a página principal</p></a>
         </div>
         <img src="../images/login-bg-2.png" alt="cat-bg" class="login-bg-img">  
     </div>
