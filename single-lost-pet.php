@@ -52,7 +52,7 @@
                     echo '<h4 class="single-category">' . $row['pet_type'] . '</h4>';
                     echo '<h1 class="single-title">' . $row['pet_name'] . '</h1>';
                     echo '<p class="single-desc">' . $row['pet_description'] . '</p>';
-                    echo '<a href="#" class="btn-primary"> Solicitar datos de Contacto</a>';
+                    echo '<a href="contact-details.php?id=' . $petId . '" class="btn-primary"> Solicitar datos de Contacto</a>';
                     echo '<table class="styled-table">';
                     echo '<tbody>';
 
